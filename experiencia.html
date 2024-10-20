@@ -1,0 +1,203 @@
+<!-- 
+    Nombre: Ion Cerezo
+    Fecha: 17/09/2024
+    Módulo: Desarrollo de aplicaciones web.
+    UD: 01
+    Asignatura: Lenguaje de marcas y Sistemas de gestión de la información
+    Nombre del ejercicio: Tarea Evaluativa 02
+    Tarea autoevaluativa: https://docs.google.com/document/d/19-uhKb5pA9MtU6Qa8hVRC0VMDV7rVPfle52HvGSOS9o/edit?usp=sharing
+    Código en vivo: 
+-->
+
+<!-- Declaración del doctype en HTML5 -->
+<!DOCTYPE html>
+<!-- Sintaxis en HTML5. -->
+<html lang="es">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="description" content="Página de experiencia laboral y estudiantil.">
+  <meta name="keywords" content="Educacion social, Experiencia, Integracion social">
+  <title>Experiencia</title>
+  <!--Definir estilos en un archivo externo enlazado-->
+  <link rel="stylesheet" href="./styles/styles.css">
+  <!--Definir estilos dentro del documento HTML-->
+  <style>
+    .verde {
+      color: #437a16;
+    }
+
+    .cursiva {
+      font-style: italic;
+    }
+
+    .negrita {
+      font-weight: 600;
+    }
+
+    .subrayado {
+      text-decoration: underline solid #437a16;
+    }
+  </style>
+</head>
+<!--Definir estilos dentro de un elemento HTML-->
+
+<body style="background-color: #f3f4f6; font-family:  Helvetica, Arial, sans-serif;">
+  <!-- Etiqueta para mostrar el contenido inicial de la página -->
+  <header>
+    <h1>Experiencia y estudios</h1>
+  </header>
+  <!--Contenido principal de la página-->
+  <main>
+    <!-- Sección de experiencia laboral, cada trabajo reflejado en una tabla -->
+    <section>
+      <h2 class="subrayado">Experiencia laboral</h2>
+
+      <!-- Tabla para el primer trabajo -->
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">
+              Educador de calle para la promoción de la autonomía personal de
+              personas con trastorno mental grave
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="negrita">Empresa:</td>
+            <td>Atelsam</td>
+          </tr>
+          <tr>
+            <td class="negrita">Fechas:</td>
+            <td>Enero de 2023 - Mayo 2024 <span class="verde cursiva">(1 año y 4 meses)</span></td>
+          </tr>
+          <tr>
+            <td class="negrita">Descripción:</td>
+            <td>
+              Rehabilitación psicosocial de las personas con un problema de
+              salud mental y su entorno familiar tanto con personas en situación
+              de calle como no. Desarrollaba mi trabajo en su entorno próximo, y
+              en coordinación con el personal sanitario del Equipo Comunitario
+              Asertivo de Salud Mental (ECA). Mi labor se centraba en el
+              acompañamiento de la persona para facilitarle el camino para
+              alcanzar su proyecto de vida personal.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Tabla para el segundo trabajo -->
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">
+              Monitor en centro de día para personas con discapacidad
+              intelectual
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="negrita">Empresa:</td>
+            <td>Fundación Goyeneche</td>
+          </tr>
+          <tr>
+            <td class="negrita">Fechas:</td>
+            <td>Nov 2020 - Sept 2022 <span class="verde cursiva">(1 año y 7 meses)</span></td>
+          </tr>
+          <tr>
+            <td class="negrita">Descripción:</strong></td>
+            <td>
+              Diseñaba y llevaba a cabo actividades que favorecen el desarrollo
+              personal y comunitario de las personas atendidas, teniendo en
+              cuenta sus preferencias y estilo de vida. Trabajaba con el enfoque
+              de la planificación centrada en la persona.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Tabla para el tercer trabajo -->
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Integrador/educador en centro de menores</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="negrita">Empresa:</td>
+            <td>Grupo Urgatzi</td>
+          </tr>
+          <tr>
+            <td class="negrita">Fechas:</td>
+            <td>
+              Febrero de 2017 - Noviembre de 2020 <span class="verde cursiva">(3 años y 8 meses)</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="negrita">Descripción:</td>
+            <td>
+              He trabajado en los centros de menores de 12 a 18 años de
+              Legorreta e Igeldo (San Sebastián). En esta empresa he podido
+              trabajar con adolescentes extranjeros y nacidos aquí, cubriendo
+              sus necesidades, dándoles apoyo emocional y llevando a cabo
+              procesos educativos. También he supervisado visitas reguladas con
+              familiares y mediado en varios conflictos. Durante un año, trabajé
+              como apoyo de un adolescente con discapacidad intelectual,
+              ayudando con tareas escolares, higiene, ocio y relaciones
+              familiares.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Sección de estudios -->
+    <section>
+      <h2 class="subrayado">Estudios</h2>
+
+      <!--Uso Div para poder estilar el conjunto con forma de tarjeta-->
+      <div class="tarjeta sombra">
+        <h3>Educación social</h3>
+        <ul>
+          <li>📅 2017 - 2021</li>
+          <li>🏫 UPV / EHU</li>
+        </ul>
+      </div>
+
+      <div class="tarjeta sombra">
+        <h3>Integración social</h3>
+        <ul>
+          <li>📅 2015 - 2017</li>
+          <li>🏫 Inmakulada Ikastetxea</li>
+        </ul>
+      </div>
+
+      <div class="tarjeta sombra">
+        <h3>Atención sociosanitaria</h3>
+        <ul>
+          <li>📅 2016</li>
+          <li>🏫 Inmakulada Ikastetxea</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!-- Sección de navegación -->
+  <nav>
+    <h2>Conoce más sobre mí</h2>
+    <ol>
+      <li><a href="index.html">Inicio</a></li>
+      <li>
+        <a href="experiencia.html">Experiencia Académica Laboral</a>
+      </li>
+      <li>
+        <a href="aficiones.html">Aficiones</a>
+      </li>
+    </ol>
+  </nav>
+</body>
+
+</html>

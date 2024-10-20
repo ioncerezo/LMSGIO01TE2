@@ -1,0 +1,208 @@
+/*
+    Nombre: Ion Cerezo
+    Fecha: 17/09/2024
+    Módulo: Desarrollo de aplicaciones web.
+    UD: 01
+    Asignatura: Lenguaje de marcas y Sistemas de gestión de la información
+    Nombre del ejercicio: Tarea Evaluativa 02
+    Tarea autoevaluativa: https://docs.google.com/document/d/19-uhKb5pA9MtU6Qa8hVRC0VMDV7rVPfle52HvGSOS9o/edit?usp=sharing
+    Código en vivo: 
+*/
+
+/* ESTILOS GENERALES*/
+body {
+  background: url("../images/background.png") repeat fixed;
+  background-size: 500px;
+  margin: 0px;
+  margin-bottom: 30px;
+  /*Aplico color de texto a todos los elementos*/
+  color: #2a282f;
+}
+/*
+body {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image:  linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #e5e5f7 1px);
+  background-size: 20px 20px;
+}
+*/
+main {
+  padding-inline: 40px;
+}
+
+a {
+  color: #437a16;
+}
+h1 {
+  font-size: 76px;
+  letter-spacing: -4px;
+  text-align: center;
+  line-height: 81px;
+  padding: 16px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin: 32px 0px 22px 0px;
+}
+h3 {
+  margin-block: 13px;
+}
+
+p,
+dd,
+td {
+  line-height: 20.5px;
+  margin-block: 16px;
+}
+
+header {
+  padding: 16px;
+  margin-top: 30px;
+  margin-inline: auto;
+}
+section {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.sombra {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* PAGINA INDEX */
+
+#retrato {
+  margin-top: 22px;
+  border-radius: 100%;
+  width: 320px;
+}
+#datos-personales img {
+  margin-right: 5px;
+}
+
+/*PÁGINA EXPERIENCIA*/
+
+table {
+  /*Para que se muestre un borde en vez de doble */
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 3px;
+  padding: 16px;
+  margin: 34px 22px;
+}
+
+td,
+th {
+  border: 1px dotted #2a282f91;
+}
+
+th {
+  padding: 20px 60px 30px;
+}
+td {
+  padding: 20px 20px;
+}
+.tarjeta {
+  display: inline-block;
+  width: 188px;
+  height: 185px;
+  background-color: white;
+  border-radius: 3px;
+  padding: 16px;
+  margin: 21.6px;
+  /*Ajusto el baseline para que todas las tarjetas se vean a la misma altura*/
+  vertical-align: top;
+  text-align: center;
+}
+/*Uso de display:flex para poner los textos centrados y a la misma altura dentro de la caja */
+.tarjeta h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.tarjeta ul {
+  list-style-type: none;
+  line-height: 25px;
+  padding: 15px 0px;
+}
+
+/* PÁGINA AFICIONES */
+
+.aficiones {
+  margin: 18px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 360px;
+  height: 490px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.aficiones dl {
+  padding: 16px;
+  width: 328px;
+  margin-inline: auto;
+  margin-block: 0px;
+}
+
+/* Mismo tamaño que el h3 tiene por defecto */
+.aficiones dt {
+  font-size: 1.17em;
+  font-weight: 600;
+}
+
+.aficiones dd {
+  margin-top: 16px;
+  margin-inline: auto;
+}
+
+video {
+  width: 360px;
+  height: 280px;
+  object-fit: cover;
+}
+
+/*BARRA DE NAVEGACIÓN */
+
+nav {
+  /*Posición siempre por encima */
+  position: fixed;
+  /*Se posiciona arriba del todo del viewport */
+  top: 0px;
+  background-color: white;
+  list-style-type: none;
+  text-align: right;
+  /*vw para que ocupe todo el ancho del viewport*/
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+nav h2 {
+  /*Oculto pero sigue disponible en el html*/
+  visibility: hidden;
+  font-size: 0px;
+  margin: 0px;
+}
+nav ol {
+  margin: 0px;
+}
+nav li {
+  display: inline-block;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  padding: 31px;
+  font-weight: 600;
+}
+
+nav a {
+  color: #2a282f;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #437a16;
+}

@@ -1,0 +1,115 @@
+<!-- 
+    Nombre: Ion Cerezo
+    Fecha: 17/09/2024
+    Módulo: Desarrollo de aplicaciones web.
+    UD: 01
+    Asignatura: Lenguaje de marcas y Sistemas de gestión de la información
+    Nombre del ejercicio: Tarea Evaluativa 02
+    Tarea autoevaluativa: https://docs.google.com/document/d/19-uhKb5pA9MtU6Qa8hVRC0VMDV7rVPfle52HvGSOS9o/edit?usp=sharing
+    Código en vivo: 
+-->
+
+<!-- Declaración del doctype en HTML5 -->
+<!DOCTYPE html>
+<!-- Sintaxis en HTML5. -->
+<html lang="es">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="description" content="Página con aficiones.">
+  <meta name="keywords" content="CV, Curriculum Vitae, Aficiones, Escalada, Cocina, Montañismo">
+  <title>Aficiones</title>
+</head>
+
+<body style="background-color: #f3f4f6; font-family:  Helvetica, Arial, sans-serif;">
+  <!-- Etiqueta para mostrar el contenido inicial de la página -->
+  <header>
+    <h1>Aficiones</h1>
+    <!--Definir estilos en un archivo externo enlazado-->
+    <link rel="stylesheet" href="./styles/styles.css">
+  </header>
+
+  <!-- Sección para mostrar mis aficiones -->
+  <main>
+    <!-- Div para agrupar las tres secciones y estilarlas-->
+    <div style="margin: auto; max-width: 1200px">
+      <section class="aficiones">
+        <!-- Video en varios formatos para compatibilidad -->
+        <video autoplay muted loop preload="auto">
+          <source src="videos/escalada.mp4" type="video/mp4" />
+          <source src="videos/escalada.webm" type="video/webm" />
+          <source src="videos/escalada.ogv" type="video/ogg" />
+          <img src="images/imagennovideo.png" alt="No soporta el vídeo" />
+          Su navegador no es compatible con los videos elegidos
+        </video>
+        <!-- Lista con definiciones -->
+        <dl>
+          <dt>Escalada</dt>
+          <dd>
+            Disfruto de la escalada en roca y deportiva, que me permite desafiar
+            mis habilidades físicas y mentales. Participar en rutas de escalada
+            tanto en interiores como en exteriores me ayuda a mejorar mi fuerza,
+            resistencia y concentración.
+          </dd>
+        </dl>
+      </section>
+
+      <section class="aficiones">
+        <!-- Video en varios formatos para compatibilidad -->
+        <video autoplay muted loop preload="auto">
+          <source src="videos/senderismo.mp4" type="video/mp4" />
+          <source src="videos/senderismo.webm" type="video/webm" />
+          <source src="videos/senderismo.ogv" type="video/ogg" />
+          <img src="images/imagennovideo.png" alt="No soporta el vídeo" />
+          Su navegador no es compatible con los videos elegidos
+        </video>
+        <dl>
+          <dt>Montañismo</dt>
+          <dd>
+            El montañismo es una de mis pasiones, y me encanta explorar rutas de
+            montaña y realizar ascensos. La conexión con la naturaleza y el reto
+            físico y mental que implica subir montañas son aspectos que valoro
+            profundamente.
+          </dd>
+        </dl>
+      </section>
+
+      <section class="aficiones">
+        <!-- Video en varios formatos para compatibilidad -->
+        <video autoplay muted loop preload="auto">
+          <source src="videos/cocina.mp4" type="video/mp4" />
+          <source src="videos/cocina.webm" type="video/webm" />
+          <source src="videos/cocina.ogv" type="video/ogg" />
+          <img src="images/imagennovideo.png" alt="No soporta el vídeo." />
+          Su navegador no es compatible con los videos elegidos
+        </video>
+        <dl>
+          <dt>Cocina</dt>
+          <dd>
+            La cocina me proporciona una oportunidad para desconectar del ajetreo
+            diario y disfrutar del proceso creativo de preparar comidas. Es una
+            actividad que me permite relajarme y encontrar placer en los detalles
+            de la preparación de los alimentos.
+          </dd>
+        </dl>
+      </section>
+    </div>
+  </main>
+  <!-- Sección de navegación -->
+  <nav>
+    <h2>Conoce más sobre mí</h2>
+    <ol>
+      <li><a href="index.html">Inicio</a></li>
+      <li>
+        <a href="experiencia.html">Experiencia Académica Laboral</a>
+      </li>
+      <li>
+        <a href="aficiones.html">Aficiones</a>
+      </li>
+    </ol>
+  </nav>
+
+</body>
+
+</html>

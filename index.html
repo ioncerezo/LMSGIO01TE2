@@ -1,0 +1,113 @@
+<!-- 
+    Nombre: Ion Cerezo
+    Fecha: 17/09/2024
+    Módulo: Desarrollo de aplicaciones web.
+    UD: 01
+    Asignatura: Lenguaje de marcas y Sistemas de gestión de la información
+    Nombre del ejercicio: Tarea Evaluativa 02
+    Tarea autoevaluativa: https://docs.google.com/document/d/19-uhKb5pA9MtU6Qa8hVRC0VMDV7rVPfle52HvGSOS9o/edit?usp=sharing
+    Código en vivo: 
+-->
+
+<!-- Declaración del doctype en HTML5 -->
+<!DOCTYPE html>
+<!-- Sintaxis en HTML5. -->
+<html lang="es">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="description" content="Página con aficiones correspondiente al CV de Ion Cerezo" />
+  <meta name="keywords" content="CV, Curriculum Vitae, Aficiones, Escalada, Cocina, Montañismo" />
+  <title>CV Ion Cerezo</title>
+  <!--Definir estilos en un archivo externo enlazado-->
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <style>
+    .negrita {
+      font-weight: 600;
+    }
+
+    .cursiva {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body style="background-color: #f3f4f6; font-family:  Helvetica, Arial, sans-serif;">
+  <!-- Encabezado de la página -->
+  <header style="max-width: 700px;  text-align: center">
+    <h1>Ion Cerezo</h1>
+    <h3 style="font-variant:small-caps;" class="cursiva">Educador e Integrador Social</h3>
+    <img id="retrato" class="sombra" src="images/foto.jpg" alt="Fotografía del rostro de Ion Cerezo" />
+  </header>
+
+  <!-- Contenido principal de la página -->
+  <main>
+    <!-- Sección sobre mí -->
+    <section>
+      <h2>Sobre mí</h2>
+      <p style="text-indent: 30px;">
+        Soy una persona <span class="negrita">trabajadora y responsable</span>.
+        Se me da bien trabajar en grupo y disfruto haciéndolo. Soy cariñoso,
+        respetuoso y cercano con quienes atiendo. También soy empático,
+        asertivo y siempre tengo ganas de trabajar y aprender.
+      </p>
+      <p style="text-indent: 30px;">
+        Me considero una persona versátil, ya que tengo experiencia tanto con
+        adolescentes, personas con discapacidad intelectual, personas con
+        trastornos mentales graves (esquizofrenia, bipolaridad, etc.) y
+        personas sin hogar. También disfruto del trabajo tanto educativo
+        (diseñar, planificar, evaluar) como del más asistencial (higiene,
+        movilizar, vestir).
+      </p>
+    </section>
+
+    <!-- Sección de datos personales -->
+    <section id="datos-personales">
+      <h2>Datos Personales</h2>
+      <p>
+        <img src="/images/user.png" alt="Icono de una persona" width="12" height="12" />
+        Ion Cerezo Valero
+      </p>
+      <p>
+        <img src="/images/mail.png" alt="Icono de correo electrónico" width="12" height="12" />
+        ioncerezovalero@gmail.com
+      </p>
+      <p>
+        <img src="/images/phone.png" alt="Icono de teléfono móvil" width="12" height="12" />
+        +34 <span class="cursiva">644 97 18 68</span>
+      </p>
+    </section>
+
+    <!-- Sección de descarga de CV -->
+    <section>
+      <h2>Descargar Currículum</h2>
+      <p>
+        <a href="documents/curriculo.pdf" download>Descargar mi currículum en PDF</a>
+      </p>
+    </section>
+
+    <!-- Sección de links-->
+    <section>
+      <h2>Otras direcciones</h2>
+      <p>
+        <a href="https://github.com/ioncerezo" target="_blank">GitHub</a>
+      </p>
+    </section>
+  </main>
+  <!-- Sección de navegación -->
+  <nav>
+    <h2>Conoce más sobre mí</h2>
+    <ol>
+      <li><a href="index.html">Inicio</a></li>
+      <li>
+        <a href="experiencia.html">Experiencia Académica Laboral</a>
+      </li>
+      <li>
+        <a href="aficiones.html">Aficiones</a>
+      </li>
+    </ol>
+  </nav>
+</body>
+
+</html>
