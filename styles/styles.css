@@ -18,14 +18,7 @@ body {
   /*Aplico color de texto a todos los elementos*/
   color: #2a282f;
 }
-/*
-body {
-  background-color: #e5e5f7;
-  opacity: 0.8;
-  background-image:  linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #e5e5f7 1px);
-  background-size: 20px 20px;
-}
-*/
+
 main {
   padding-inline: 40px;
 }
@@ -33,6 +26,7 @@ main {
 a {
   color: #437a16;
 }
+
 h1 {
   font-size: 76px;
   letter-spacing: -4px;
@@ -45,6 +39,7 @@ h1 {
 h2 {
   margin: 32px 0px 22px 0px;
 }
+
 h3 {
   margin-block: 13px;
 }
@@ -70,6 +65,7 @@ section {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
+
 /* PAGINA INDEX */
 
 #retrato {
@@ -77,9 +73,11 @@ section {
   border-radius: 100%;
   width: 320px;
 }
+
 #datos-personales img {
   margin-right: 5px;
 }
+
 
 /*PÁGINA EXPERIENCIA*/
 
@@ -99,10 +97,12 @@ th {
 
 th {
   padding: 20px 60px 30px;
+
 }
 td {
   padding: 20px 20px;
 }
+
 .tarjeta {
   display: inline-block;
   width: 188px;
@@ -115,6 +115,7 @@ td {
   vertical-align: top;
   text-align: center;
 }
+
 /*Uso de display:flex para poner los textos centrados y a la misma altura dentro de la caja */
 .tarjeta h3 {
   display: flex;
@@ -128,6 +129,7 @@ td {
   line-height: 25px;
   padding: 15px 0px;
 }
+
 
 /* PÁGINA AFICIONES */
 
@@ -166,6 +168,7 @@ video {
   object-fit: cover;
 }
 
+
 /*BARRA DE NAVEGACIÓN */
 
 nav {
@@ -182,15 +185,18 @@ nav {
   margin: 0px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+
 nav h2 {
   /*Oculto pero sigue disponible en el html*/
   visibility: hidden;
   font-size: 0px;
   margin: 0px;
 }
+
 nav ol {
   margin: 0px;
 }
+
 nav li {
   display: inline-block;
   word-spacing: 3px;
@@ -203,6 +209,7 @@ nav a {
   color: #2a282f;
   text-decoration: none;
 }
+
 nav a:hover {
   color: #437a16;
 }
